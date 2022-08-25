@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>task2</title>
+	<style type="text/css">
+		.header-content{
+			width: 100%;
+		}
+		.header-content div{
+			background-color: grey;
+			height: 25px;
+			text-align: right;
+			padding: 10px;
+		}
+		.div-1{
+			background-color: white;
+			height: 50px;
+		}
+		.div-1:hover{
+			background-color: lightyellow;
+		}
+		.div-1 div{
+			padding-left: 30px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		select{
+			border: none;
+			font-size: 18px;
+			font-weight: 500;
+			cursor: pointer;
+			height: 30px;
+		}
+		select:hover{
+			background-color: lightgreen;
+			border-radius: 10px;
+		}
+
+		.w1{
+			width: 30px;
+   			height: 35px;
+   			margin: 5px 0 5px 5px;
+    		font-size: 40px;
+			}
+		.w2{
+			margin: 5px 0 10px 40px;
+			color: blue;
+			text-decoration: none;
+			}
+		.btn{
+			border-radius: 10px;
+			text-align: center;
+			cursor: pointer;
+			height: 30px;
+			border: none;
+			padding-top: 10px; width: 120px;
+			background-color: blue;
+			color: white;
+			}
+			.btn:hover{
+				background-color: lightgreen;
+				color: red;
+			}
+			.btn-2{
+				background-color: green;
+				cursor: pointer;
+				border-radius: 5px;
+				height: 40px;
+				width: 150px;
+			}
+			.div-3{
+				position:absolute;
+				color: white;
+				top:150px;
+				left:200px;
+			}
+			.div-3 input{
+				height: 35px;
+				border-radius: 5px;
+				width: 300px;
+				margin-right: 5px;
+			}
+			.div-3 h1{
+				font-size: 40px;
+				margin-top: 90px;
+			}
+			.div-4{
+				justify-content: space-between;
+				display: flex;
+				width: 100%;
+				padding-top: 50px;
+				padding-bottom: 30px;
+			}
+			.div-4 div{
+				display: flex;
+				width: 30%;
+				text-align: right;
+				color: green;
+				padding-left: 50px;
+				font-size: 22px;
+			}
+			.div-1 img{
+				margin-left: 120px;
+			}
+			.div-4 .div-6{
+				display: flex;
+				width: 70%;
+				text-align: left;
+				font-size: 20px;
+			}
+			.div-7{
+				background-color: white;
+				width: 100%;
+				height: 550px;
+				margin-top: -25px;
+			}
+			 .head2{
+			 	color: green;
+			 	padding-left: 551px;
+			 	padding-top: 40px;
+			 }
+			 .img3{
+			 	padding-left: 414px;
+			 	padding-top: 100px;
+			 }
+			 .img4{
+			 	width: 175px;
+			 	padding-bottom: 100px;
+			 }
+			 .div-8{
+			 	width: 100%;
+			 	height: 350px;
+			 	background-color:lightgrey;
+			 	margin-top: -45px;
+			 	padding-top: 10px;
+			 }
+			 .div-9 h1{
+			 	margin-top: -300px;
+			 	margin-left: 95px;
+			 	color: white
+			 }
+			 .div-9{
+			 	position: relative;
+			 }
+			 .div-9 input{
+			 	height: 30px;
+			 	margin-left: 95px;
+			 	width: 210px;
+			 }
+			 .div-10{
+			 	width: 100%;
+			 	height: 450px;
+			 	background-color:white;
+			 	margin-top: -25px;
+			 	position: relative;
+			 }
+			 .div-10 h1{
+			 	padding-left: 565px;
+			 	padding-top: 20px;
+			 }
+			 .div-9 button{
+			 	background-color: blue;
+			 	height: 35px;
+			 	cursor: pointer;
+			 }
+			 .img-6{
+			 	height: 200px;
+			 	margin-top: -160px;
+			 	padding-left: 650px;
+			 }
+			 .img-5{
+			 	margin-bottom: 20px;
+			 	height: 152px;
+			 	margin-top: -171px;
+			 	padding-left: 605px;
+			 }
+			 .div-9 p{
+			 	color: white;
+			 	padding-left: 95px;
+			 }
+			 .div-11{
+			 	padding-left: 835px;
+			 	margin-top: -170px;
+			 }
+			 .div-11 button{
+			 	background-color: blue;
+			 	width: 250px;
+			 	height: 35px;
+			 	cursor: pointer;
+			 	border-radius: 10px;
+			 }
+			 .div-12{
+			 	width: 100%;
+			 	position: relative;
+			 	height: 265px;
+			 }
+			 .img-8{
+			 	margin-left: 769px;
+			 	height: 230px;
+			 	position: absolute;
+			 	width: 160px;
+			 	margin-top: -234px;
+			 } 
+			 .div-13{
+			 	padding-left: 600px;
+			 	padding-left: 975px;
+			 	margin-top: -250px;
+			 	color: white;
+			 }
+			 .h1-a{
+			 	color: white;
+			 	margin-left: 70px;
+			 }
+			 .i{
+			 	margin-left: 129px;
+			 }
+			 footer{
+			 	padding: 10px ; 
+			 	border: 5px solid darkgrey;
+			 }
+			 footer img{
+			 	 width: 100%;
+			 }
+			 .div-13 button{
+			 	width: 208PX;
+			 	height: 35PX;background-color: blue;
+			 	cursor: pointer;
+			 	margin-left: 33px;
+			 }
+			 .img-9{
+			 	width: 100%;
+			 }
+
+	</style>
+</head>
+<body>
+	<header class="header-content">
+		<div>1-800-489-8128-24/7 Support</div>
+	</header>
+	<div class="div-1">
+		<div>
+			<a href="#"><i class="fa fa-bars w1" aria-hidden="true"></i></a>
+			<select class="w2">
+				<option>Book Services</option>
+				<option>Peding Requist </option>
+				<option>Holding opction</option>
+				<option>Other Help</option>
+			</select>
+			
+			<a href="#" class="w2">Support/FAQ</a>
+			<img src="pmz-no-sub-r-full-color-copy.png">
+			<a href="#" class="w2" style="padding-left: 135px">Sign up</a>
+			<a href="#" class="w2">Login</a>
+			<a href="#" class="w2">
+			<button class="btn">
+				<b>Work With Us</b>
+			</button>
+			</a>
+		</div>
+	</div>
+	<div style="position:relative;">
+			<img src="header-image.png" style=" width:100%;">
+		<div class="div-3" style="">
+			<h1>Jacksonville Gutter Cleaning <br>Services on YOUR Schedule!</h1>
+			<h2>Get a free quote &easily book on demand lawn care<br> from our professional, insured fleet.</h2>
+			<input type="text" placeholder="Enter Your address;"><button class="btn-2">GET A QUOTE></button>
+		</div>
+	</div>
+	<div class="div-4">
+		<div>
+			<h1>Gutter Cleaning<br> Service</h1>			
+		</div>
+		<div class="div-6">
+			<p>Prevent water damage to your home by keeping your gutters  clear. Our pros<br> will clear out the leaves and debris from your  gutters and downspouts and <br> recommemded any  repair services that may be needed.<br> 
+			Leaves and debris can clog up your gutters and downspouts.This can lead to<br> water damage, mold, or even cause the gutters to fall from the house. Make<br> sure your gutters are clean and draining properly a few times per year!</p>
+		</div>
+	</div>
+		<img style="width: 100%;" src="4-steps.png">
+		<div class="div-7">
+			<h1 class="head2">How Plowz & Mowz Work</h1>
+	    	<img class="img3" src="tap-copy.png">
+    		<img class="img4" src="sched@2x.png">
+    		<img src="photo-copy.png">
+    	</div>
+    	<div style="position: relative;">
+    		<img style="width: 100%;height: 450px;" src="header-image.png">
+    	</div>
+    	<div class="div-9">
+    		<h1>Let us handle all<br> your most<br> difficult chores</h1><p>download our free app to book and <br> manage your appointments on-the-go.<br>Enter your phone number,we'll text you a <br>link to get the PLOWZ MOWZ app.</p>
+    		<input type="text" name="" placeholder="Enter your phone number">
+    		<button>></button>
+    		<div>
+    		<img class="img-6" src="phone-mockup.png">
+    		</div>
+    		<div>
+    			<img class="img-5" src="phone-mockup.png">
+    		</div>
+    	</div>
+    		<div class="div-8">
+    			<div style="padding-left: 500px"><h1>What Your Neighbors Are Saying</h1></div>
+    			<div style="padding-left: 625px"><img src="5-stars.png"></div>
+    			<p style="padding-left: 430px">Why hire one services provider when you can hire an entire term of services provider? this app
+    				<br>has been a godsend for me as a young professional who works 80+ hours a week and doesn't have to <br>have hour to spare taking care of my lawn. it is really easy and convenient and i don't have to <br> warry about leaving a check for the landscaper because everthing is paid for using the app. <br>After my first service, i was less than impressed with the service and i got a personal responce <br> within a day. I tried the service again and have used it an additional 3 times and the first time</p>
+    			<p style="padding-left: 480px">  must have been an anomly because the services has been amazing each time.</p>
+    			<h2 style="padding-left: 590px">Megan M | Jacksonville, FL</h2>
+    		</div>
+    		<div class="div-10">
+    			<h1>Gutter Cleaning Service</h1>
+    			<div style="padding-left: 400px;"><h3>What to Expect</h3>
+    				<dl>
+    					<li>Removal of leaves and debris from <br>gutters and downspouts.</li>
+    					<li>Leaves and debris caused by servicing <br>the gutter will be cleaned up</li>
+    					<li>An inspection of gutter for any <br>drainage issues.</li>
+    					<li>Inspection of downspouts for issues and <br>repairs</li>
+    					<li>Please review your order and let us know <br>if you need to add any notes.</li>
+    				</dl>
+    			</div>
+    		<div class="div-11">
+    			<div>
+    				<p>Leave the gutter clean up to the PROs. Let us <br>know any services you'd like to add and we'll<br>get ypu a quotel</p>
+    			</div>
+    			<div>
+    				<button>VIEW ALL SERVICES></button>
+    			</div>
+    		</div>
+    		</div>
+    		<div class="div-12">
+    			<img class="img-9" src="image.png">
+    			<div>
+    				<img class="img-8" src="phone-mockup.png">
+    			</div>
+    			<div class="div-13">
+    				<h1>Looking to upgrade </h1>
+    				<h1 class="h1-a">your lawn?</h1>
+    				<div>
+    					<i class="i" class="fa fa-angle-down" aria-hidden="true"></i>
+    				</div>
+    				<button href="#">ORDER NOW
+    				</button>
+    			</div>
+    		</div>
+    		<footer>
+    				<img src="footer.png">
+    		</footer>
+    		</body>
+</html>
